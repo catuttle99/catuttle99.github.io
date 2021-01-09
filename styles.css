@@ -92,7 +92,7 @@ nav ul{
 
 nav li{
     display: inline-block;
-    margin-left: 60px; /*was 120*/
+    margin-left: 40px; /*was 120*/
     padding-top: 30px;
 
 }
