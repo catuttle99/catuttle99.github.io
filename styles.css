@@ -21,7 +21,7 @@ body,html {
 }
 .myPic{
     background-image: url("images/sitting.jpg");
-    height:1500px; /*was 1940*/
+    height:1300px; /*was 1940*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
