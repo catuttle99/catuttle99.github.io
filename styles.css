@@ -14,7 +14,11 @@ body,html {
 
 
 }
-
+#wrap{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
 .myPic{
     background-image: url("images/sitting.jpg");
     height:1940px;
@@ -33,7 +37,7 @@ section h1{
     color: #ffffff;
     border: 3px solid #ffffff;
     position: absolute;
-    top: 300px;
+    top: 800px;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 5rem 10rem;
