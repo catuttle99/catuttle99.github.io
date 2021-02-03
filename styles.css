@@ -7,8 +7,8 @@ body,html {
     height: 100%;
     margin:0;
     padding: 0;
-    color: #000000;
-    background-color: #2F4F4F;
+    color: #C5C6C7; /*was 00000*/
+    background-color: #1F2833; /* was 2F4F4F*/
 
 
 
@@ -75,7 +75,7 @@ section h1{
 
 }
 header {
-    background: #808080;
+    background: #C5C6C7; /*was 808080*/
     border-bottom: 5px solid black;
 
 
@@ -90,6 +90,7 @@ header::after{
 
 .name{
     float: left;
+    color: #000000;
 }
 
 nav{
@@ -123,7 +124,14 @@ nav a:hover{
 }
 
 .mail{
-    color: #000000;
+    /*color: #000000;*/
+    text-align: center;
+
+
+}
+.mail ul{
+    margin-left: 20px; /*maybe get rid of*/
+    padding-left: 20px;
 
 }
 
@@ -173,5 +181,9 @@ button:hover{
 }*/
 
 .exp{
-    text-align: center;
+    /*text-align: center;*/
+}
+
+h1{
+   color: #45A29E;
 }
