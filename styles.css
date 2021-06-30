@@ -178,6 +178,32 @@ button:hover{
     margin-left: 20px;
 }
 
+
+
+/* Gallery stuff*/
+.gallery{
+    margin: 5px;
+    border: 1px solid #CCC;
+    float: left;
+    width: 180px;
+}
+.gallery:hover{
+    transform: scale(1.8);
+    border: 1px solid #777777;
+
+
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.galleryTitle{
+    text-align: center;
+}
+
+
 /*.sidebar{
     color: #ffffff;
     width: 40%;
