@@ -181,6 +181,7 @@ button:hover{
 
 
 /* Gallery stuff*/
+/*
 .gallery{
     margin: 5px;
     border: 1px solid #CCC;
@@ -198,10 +199,55 @@ button:hover{
     width: 100%;
     height: auto;
 }
+    */
+/*
+.gallery{
+    display: flex;
+    padding: 2px;
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    
+}
+
+.thumb{
+    position: relative;
+}
+
+.image{
+    display: block;
+    width: 100%;
+
+}
+
+
 
 .galleryTitle{
     text-align: center;
-}
+} 
+    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*.sidebar{
