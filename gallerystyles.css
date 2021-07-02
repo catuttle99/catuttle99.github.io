@@ -61,12 +61,12 @@ body {
 
 .image-gallery a ion-icon{
     color: rgba(255,255,255, .6);
-    font-size: 3rem;
+    font-size: 0.5rem; /*was 3*/
     position: relative;
     z-index: 100;
-    padding: 1rem 3rem;
-    border: 2px solid rgba(255,255,255,.6);
-    border-radius: .4rem;
+    /*padding: 1rem 3rem;*/
+    /*border: 2px solid rgba(255,255,255,.6);
+    border-radius: .4rem;*/
     opacity: 0;
     transition: opacity .5s;
 
@@ -81,14 +81,29 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.3); /*000.8*/
     opacity: 0;
     transition: opacity .5s;
 }
 
+    
+
 .image-gallery a:hover ion-icon,
-.image-gallery a:hover::before{
+.image-gallery a:hover::before{ /*was before*/
+    opacity: 1; /*was 1*/
+}
+
+.caption1{
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+
+.img-1:hover .caption1{ /*currently activates when any picture is hovered*/
     opacity: 1;
+    
 }
 
 .img-1 {
@@ -176,5 +191,10 @@ body {
 
 .galleryTitle {
     text-align: center;
-} 
+}
+
+
+
+
+    
 
