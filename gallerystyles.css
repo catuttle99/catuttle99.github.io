@@ -28,14 +28,17 @@ body {
     width: 100%;
     max-width: 120rem;
     margin: auto;
-    padding: 0 1.5rem;
+    /*padding: 0 1.5rem;*/
+    padding-left: 0;
+    
+    padding-right: 1.5rem;
 }
 
 .image-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 1.5rem;
+    grid-template-rows: auto; /*was auto*/
+    /*was 1.5*/grid-gap: .25rem; /*maybe fix later*/
     grid-template-areas: 'img-1 img-2 img-3 img-3' 
         'img-1 img-4 img-5 img-6' 
         'img-7 img-7 img-8 img-6' 
@@ -108,7 +111,7 @@ body {
 
 .img-1 {
     grid-area: img-1;
-    min-height: 51.5rem;
+    min-height: 50.25rem; /*was 51.5*/
     background-image: url("images/Climb/Outdoor/out1.jpg");
 }
 
@@ -134,7 +137,7 @@ body {
 
 .img-6 {
     grid-area: img-6;
-    min-height: 51.5rem;
+    min-height: 50.25rem; /*was 51.5*/
     background-image: url("images/Climb/Outdoor/out6.jpg");
 }
 
@@ -193,16 +196,20 @@ body {
     text-align: center;
     margin-right: 0px;
     width: 40%;
-
+   /* background-color: #1F2833;*/
 }
 
 .galleryTitle p{
     font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    
 }
 
 .galleryHead{
-    background-color:darkslategray;
+    background-color: #656D4A;
     margin-right: 0;
+    
 }
 
 
