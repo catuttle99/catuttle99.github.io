@@ -191,6 +191,18 @@ body {
 
 .galleryTitle {
     text-align: center;
+    margin-right: 0px;
+    width: 40%;
+
+}
+
+.galleryTitle p{
+    font-size: 15px;
+}
+
+.galleryHead{
+    background-color:darkslategray;
+    margin-right: 0;
 }
 
 
