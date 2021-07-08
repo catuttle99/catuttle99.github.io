@@ -26,12 +26,16 @@ body {
 
 .container{
     width: 100%;
-    max-width: 120rem;
+    /*max-width: 120rem;*/
     margin: auto;
     /*padding: 0 1.5rem;*/
-    padding-left: 0;
+    padding-left: 1.5rem;
     
-    padding-right: 1.5rem;
+    padding-right: 1.5rem;/*was 1.5*/
+    padding-bottom: 5rem;
+    /*these below are here to try and get words above gallery*/
+    position:absolute; /*added*/
+    top: 200px; /*added*/ 
 }
 
 .image-gallery {
@@ -44,8 +48,12 @@ body {
         'img-7 img-7 img-8 img-6' 
         'img-9 img-10 img-11 img-12'
         'img-13 img-13 img-14 img-14'
-        'img-15 img-15 img-16 img-16';
+        'img-15 img-15 img-16 img-16'
+        'img-17 img-18 img-18 img-19'
+        'img-17 img-20 img-21 img-22'
+        'img-23 img-23 img-24 img-24';
         
+    
 }
 
 .image-gallery a{
@@ -191,11 +199,52 @@ body {
     background-image: url("images/Climb/Outdoor/out16.jpg");
 }
 
+.img-17 {
+    grid-area: img-17;
+    min-height: 50.25rem;
+    background-image: url("images/Climb/Outdoor/out17.jpg");
+}
+
+.img-18 {
+    grid-area: img-18;
+    background-image: url("images/Climb/Outdoor/out18.jpg");
+}
+
+.img-19 {
+    grid-area: img-19;
+    background-image: url("images/Climb/Outdoor/out19.jpg");
+}
+
+.img-20 {
+    grid-area: img-20;
+    background-image: url("images/Climb/Outdoor/out20.jpg");
+}
+
+.img-21 {
+    grid-area: img-21;
+    background-image: url("images/Climb/Outdoor/out21.jpg");
+}
+
+.img-22 {
+    grid-area: img-22;
+    background-image: url("images/Climb/Outdoor/out22.jpg");
+}
+
+.img-23 {
+    grid-area: img-23;
+    background-image: url("images/Climb/Outdoor/out23.jpg");
+}
+
+.img-24 {
+    grid-area: img-24;
+    background-image: url("images/Climb/Outdoor/out24.jpg");
+}
+
 
 .galleryTitle {
     text-align: center;
     margin-right: 0px;
-    width: 40%;
+    width: 100%;
    /* background-color: #1F2833;*/
 }
 
@@ -211,6 +260,8 @@ body {
     margin-right: 0;
     
 }
+
+
 
 
 
