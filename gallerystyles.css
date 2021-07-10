@@ -49,22 +49,35 @@ body {
         'img-9 img-10 img-11 img-12'
         'img-15 img-13 img-16 img-14'
         'img-15 img-13 img-16 img-14'
-        'img-17 img-18 img-18 img-19'
+        'img-17 img-18 img-18 img-25'
         'img-17 img-20 img-21 img-22'
         'img-23 img-20 img-21 img-24'
-        'img-25 img-26 img-28 img-28'
+        'img-19 img-19 img-28 img-28' /*not using 26*/
         'img-29 img-30 img-31 img-31'
         'img-27 img-27 img-32 img-32'
         'img-33 img-36 img-36 img-40'
         'img-34 img-35 img-35 img-40'
         'img-37 img-38 img-39 img-40'
         'img-41 img-42 img-44 img-44'
-        'img-41 img-45 img-46 img-50' /*currently arent using 43*/
+        'img-41 img-45 img-46 img-50' /*currently arent using 59, */
         'img-47 img-47 img-49 img-50'
         'img-43 img-51 img-52 img-53'
         'img-54 img-55 img-52 img-53'
         'img-54 img-55 img-56 img-57'
-        'img-58 img-55 img-56 img-60';
+        'img-58 img-55 img-56 img-60'
+        'img-61 img-62 img-63 img-64'
+        'img-65 img-66 img-67 img-68'
+        'img-65 img-66 img-69 img-69'
+        'img-70 img-71 img-72 img-73'
+        'img-74 img-71 img-75 img-73'
+        'img-74 img-76 img-77 img-82'
+        'img-79 img-76 img-77 img-80'
+        'img-79 img-78 img-78 img-84'
+        'img-83 img-78 img-78 img-84' /*81 85*/
+        'img-81 img-81 img-85 img-85';
+        
+        
+        
         
     
 }
@@ -445,6 +458,141 @@ body {
 .img-60 {
     grid-area: img-60;
     background-image: url("images/Climb/Outdoor/out60.jpg");
+}
+
+.img-61 {
+    grid-area: img-61;
+    background-image: url("images/Climb/Outdoor/out61.jpg");
+}
+
+.img-62 {
+    grid-area: img-62;
+    background-image: url("images/Climb/Outdoor/out62.jpg");
+}
+
+.img-63 {
+    grid-area: img-63;
+    background-image: url("images/Climb/Outdoor/out63.jpg");
+}
+
+.img-64 {
+    grid-area: img-64;
+    background-image: url("images/Climb/Outdoor/out64.jpg");
+}
+
+.img-65 {
+    grid-area: img-65;
+    min-height: 50.25rem;
+    background-image: url("images/Climb/Outdoor/out65.jpg");
+}
+
+.img-66 {
+    grid-area: img-66;
+    min-height: 50.25rem;
+    background-image: url("images/Climb/Outdoor/out66.jpg");
+}
+
+.img-67 {
+    grid-area: img-67;
+    background-image: url("images/Climb/Outdoor/out67.jpg");
+}
+
+.img-68 {
+    grid-area: img-68;
+    background-image: url("images/Climb/Outdoor/out68.jpg");
+}
+
+.img-69 {
+    grid-area: img-69;
+    background-image: url("images/Climb/Outdoor/out69.jpg");
+}
+
+.img-70 {
+    grid-area: img-70;
+    background-image: url("images/Climb/Outdoor/out70.jpg");
+}
+
+.img-71 {
+    grid-area: img-71;
+    min-height: 50.25rem;
+    background-image: url("images/Climb/Outdoor/out71.jpg");
+}
+
+.img-72 {
+    grid-area: img-72;
+    background-image: url("images/Climb/Outdoor/out72.jpg");
+}
+
+.img-73 {
+    grid-area: img-73;
+    min-height: 50.25rem;
+    background-image: url("images/Climb/Outdoor/out73.jpg");
+}
+
+.img-74 {
+    grid-area: img-74;
+    min-height: 50.25rem;
+    background-image: url("images/Climb/Outdoor/out74.jpg");
+}
+
+.img-75 {
+    grid-area: img-75;
+    background-image: url("images/Climb/Outdoor/out75.jpg");
+}
+
+.img-76 {
+    grid-area: img-76;
+    min-height: 50.25rem;
+    background-image: url("images/Climb/Outdoor/out76.jpg");
+}
+
+.img-77 {
+    grid-area: img-77;
+    min-height: 50.25rem;
+    background-image: url("images/Climb/Outdoor/out77.jpg");
+}
+
+.img-78 {
+    grid-area: img-78;
+    min-height: 50.25rem;
+    background-image: url("images/Climb/Outdoor/out78.jpg");
+}
+
+.img-79 {
+    grid-area: img-79;
+    min-height: 50.25rem;
+    background-image: url("images/Climb/Outdoor/out79.jpg");
+}
+
+.img-80 {
+    grid-area: img-80;
+    background-image: url("images/Climb/Outdoor/out80.jpg");
+}
+
+.img-81 {
+    grid-area: img-81;
+    background-image: url("images/Climb/Outdoor/out81.jpg");
+}
+
+.img-82 {
+    grid-area: img-82;
+    background-image: url("images/Climb/Outdoor/out82.jpg");
+}
+
+.img-83 {
+    grid-area: img-83;
+    background-image: url("images/Climb/Outdoor/out83.jpg");
+}
+
+.img-84 {
+    grid-area: img-84;
+    min-height: 50.25rem;
+    background-image: url("images/Climb/Outdoor/out84.jpg");
+}
+
+.img-85 {
+    grid-area: img-85;
+    background-image: url("images/Climb/Outdoor/out85.jpg");
 }
 
 .galleryTitle {
