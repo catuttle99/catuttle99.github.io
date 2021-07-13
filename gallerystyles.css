@@ -130,18 +130,66 @@ body {
     opacity: 1; /*was 1*/
 }
 
-.caption1{
+/*.caption1 {
     color: white;
     text-decoration: none;
     opacity: 0;
     transition: opacity .5s;
 }
 
+.caption2 {
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity .5s;
+}*/
 
-.img-1:hover .caption1{ /*currently activates when any picture is hovered*/
-    opacity: 1;
+/*.caption3 {
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity .5s;
+}*/
+
+/*.caption4 {
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity .5s;
+}*/
+
+.Cap {
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity .5s;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.img-1:hover .Cap{ 
+    opacity: .99;
     
 }
+
+.img-2:hover .Cap { 
+    opacity: .99;
+}
+
+.img-3:hover .Cap { 
+    opacity: .99;
+}
+
+.img-4:hover .Cap { 
+    opacity: .99;
+}
+
+.img-5:hover .Cap {
+    opacity: .99;
+}
+
+
 
 .img-1 {
     grid-area: img-1;
