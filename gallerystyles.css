@@ -70,7 +70,7 @@ body {
         'img-65 img-66 img-69 img-69'
         'img-70 img-71 img-72 img-73'
         'img-74 img-71 img-75 img-73'
-        'img-74 img-76 img-77 img-82'
+        'img-74 img-76 img-77 img-80'
         'img-79 img-76 img-77 img-80'
         'img-79 img-78 img-78 img-84'
         'img-83 img-78 img-78 img-84' /*81 85*/
@@ -383,7 +383,122 @@ body {
     opacity: .99;
 }
 
+.img-58:hover .Cap {
+    opacity: .99;
+}
 
+.img-56:hover .Cap {
+    opacity: .99;
+}
+
+.img-57:hover .Cap {
+    opacity: .99;
+}
+
+.img-60:hover .Cap {
+    opacity: .99;
+}
+
+
+
+.img-61:hover .Cap {
+    opacity: .99;
+}
+
+.img-62:hover .Cap {
+    opacity: .99;
+}
+
+.img-63:hover .Cap {
+    opacity: .99;
+}
+
+.img-64:hover .Cap {
+    opacity: .99;
+}
+
+.img-65:hover .Cap {
+    opacity: .99;
+}
+
+.img-66:hover .Cap {
+    opacity: .99;
+}
+
+.img-67:hover .Cap {
+    opacity: .99;
+}
+
+.img-68:hover .Cap {
+    opacity: .99;
+}
+
+
+.img-69:hover .Cap {
+    opacity: .99;
+}
+
+.img-70:hover .Cap {
+    opacity: .99;
+}
+
+.img-71:hover .Cap {
+    opacity: .99;
+}
+
+.img-72:hover .Cap {
+    opacity: .99;
+}
+
+.img-73:hover .Cap {
+    opacity: .99;
+}
+
+.img-74:hover .Cap {
+    opacity: .99;
+}
+
+.img-75:hover .Cap {
+    opacity: .99;
+}
+
+.img-76:hover .Cap {
+    opacity: .99;
+}
+
+.img-77:hover .Cap {
+    opacity: .99;
+}
+
+
+
+.img-80:hover .Cap {
+    opacity: .99;
+}
+
+.img-79:hover .Cap {
+    opacity: .99;
+}
+
+.img-78:hover .Cap {
+    opacity: .99;
+}
+
+.img-84:hover .Cap {
+    opacity: .99;
+}
+
+.img-83:hover .Cap {
+    opacity: .99;
+}
+
+.img-81:hover .Cap {
+    opacity: .99;
+}
+
+.img-85:hover .Cap {
+    opacity: .99;
+}
 
 
 .img-1 {
@@ -809,11 +924,13 @@ body {
 
 .img-80 {
     grid-area: img-80;
+    min-height: 50.25rem;
     background-image: url("images/Climb/Outdoor/out80.jpg");
 }
 
 .img-81 {
     grid-area: img-81;
+    
     background-image: url("images/Climb/Outdoor/out81.jpg");
 }
 
@@ -842,22 +959,26 @@ body {
     text-align: center;
     margin-right: 0px;
     width: 100%;
+    font-size: 18px;
    /* background-color: #1F2833;*/
 }
 
 .galleryTitle p{
-    font-size: 15px;
+    font-size: 18px;
     margin-right: 5px;
     margin-left: 5px;
     
 }
 
-.galleryHead{
-    background-color: #656D4A;
+.galleryHead {
+    /*background-color: #656D4A;*/
     margin-right: 0;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+hr {
+    border-top: 2.5px solid black;
+}
 
 
 
