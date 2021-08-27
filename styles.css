@@ -50,7 +50,7 @@ section h1{
     color: #ffffff;
     border: 3px solid #ffffff;
     position: absolute;
-    top: 33%; /*was 600*/
+    top: 50%; /*was 600    33%*/
     left: 33%;
     transform: translate(-50%, -50%);
     padding: 4rem 7rem; /*was 5 10*/
